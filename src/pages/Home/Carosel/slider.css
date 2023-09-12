@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap");
+
+/* //slide-one-item */
+
+.slider-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+.slider-one .content-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-family: "Inter", sans-serif;
+  background-color: #24126a;
+  padding: 20px;
+  clip-path: polygon(0 0, 66% 0, 100% 100%, 0% 100%);
+}
+.slider-one .content-container p {
+  width: 70%;
+  line-height: 35px;
+}
+.slider-one .content-container h1 {
+  color: white;
+  font-size: 32px;
+  width: 40%;
+}
+.slider-one .content-container .btn {
+  width: 25%;
+  margin-top: 10px;
+}
+
+/* //slide two */
+
+.slider-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #08aeea;
+  background-image: linear-gradient(0deg, #08aeea 0%, #2af598 63%);
+}
+.slider-two .content-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: #ae2cff;
+
+  padding: 20px;
+  clip-path: polygon(0 0, 100% 0, 74% 100%, 0% 100%);
+}
+.slider-two .content-container p {
+  width: 70%;
+  line-height: 35px;
+}
+.slider-two .content-container h1 {
+  /* color: #24126a;
+     */
+  color: white;
+  font-size: 32px;
+  width: 40%;
+}
+.slider-two .content-container .btn {
+  width: 25%;
+  margin-top: 10px;
+  background-color: #24126a;
+  color: white;
+}
+
+/* slide-three */
+
+.slider-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+.slider-three .content-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-family: "Inter", sans-serif;
+  background-color: #24126a;
+
+  padding: 20px;
+  /* clip-path: polygon(0 0, 100% 0, 74% 100%, 0% 100%); */
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.slider-three .content-container p {
+  width: 70%;
+  line-height: 35px;
+}
+.slider-three .content-container h1 {
+  /* color: #24126a;
+       */
+  color: white;
+  font-size: 32px;
+  width: 60%;
+}
+.slider-three .content-container .btn {
+  width: 25%;
+  margin-top: 10px;
+}
+
+/* //icons-container
+ */
+
+.smal-logo-item {
+  height: 35px;
+  margin: 5px;
+}
+.icons-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 3px;
+  height: 40px;
+  margin-top: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icons-container-two {
+  background-color: white;
+  border-radius: 8px;
+  padding: 3px;
+  height: 40px;
+  margin-top: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons-container-three {
+  background-color: white;
+  border-radius: 8px;
+  padding: 3px;
+  height: 40px;
+  margin-top: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

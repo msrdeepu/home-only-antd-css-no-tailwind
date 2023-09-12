@@ -1,0 +1,14 @@
+.card-item-container {
+  margin: 5px;
+}
+.card-text {
+  text-align: center;
+}
+.section-heading {
+  text-align: center;
+}
+
+.section-heading-sub {
+  text-align: center;
+  color: orange;
+}

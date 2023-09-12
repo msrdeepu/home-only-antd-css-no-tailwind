@@ -1,0 +1,16 @@
+.top-items-container {
+  display: flex;
+  flex-direction: column;
+}
+/* .title-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.tag-title {
+  width: 60%;
+}
+.tag-title-two {
+  width: 20%;
+} */
