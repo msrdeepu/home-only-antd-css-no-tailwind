@@ -1,5 +1,8 @@
 import Header from "./Header";
 import Logo from "./Logo";
+
+//navigation
+import Navigation from "./Navigation";
 //carosel
 import Carosel from "./Carosel";
 //slick-slider
@@ -10,14 +13,13 @@ import MoreSection from "./MoreSection";
 import Branding from "./Branding";
 
 //antd
-import { Divider } from "antd";
+// import { Divider } from "antd";
 const Home = () => {
   return (
     <div>
       <Header />
       <Logo />
-      <h4>Navigation</h4>
-      <Divider />
+      <Navigation />
       <Carosel />
       <Slickslider />
       <MoreSection />

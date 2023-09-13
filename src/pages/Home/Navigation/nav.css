@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap");
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #314659;
+  height: 15px;
+}
+.nav-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.nav-items-container li {
+  list-style: none;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.nav-items-container li .link-item {
+  text-decoration: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.nav-items-container li .sub-menu-one {
+  display: none;
+}
+.nav-items-container li:hover .sub-menu-one {
+  text-align: left;
+  display: block;
+  position: absolute;
+  background-color: white;
+  margin-top: 3px;
+  /* margin-left: -15px; */
+  width: 20%;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+}
+.nav-items-container li:hover .sub-menu-one ul {
+  display: block;
+  margin: 10px;
+}
+.nav-items-container li:hover .sub-menu-one ul li {
+  width: 150px;
+  padding: 10px;
+}
+.nav-items-container li:hover .sub-menu-one ul .drop-down-link {
+  text-decoration: none;
+  padding: 5px;
+}
